@@ -110,6 +110,7 @@ $row2 = $query->fetch(PDO::FETCH_ASSOC);
                     <input class="pet-profile__input" name="pet-shelter" value="<?php echo $row['pet_shelter'] ?>">
                     <input class="pet-profile__input" type="text" name="pet-name" value="<?php echo $row['name'] ?>">
                     <button type="submit" id="confirmVisit">Confirmar visita</button>
+                    <button class="results__cta--secondary" id="visitThanksHome">Volver al inicio</button>
                 </div>
             </form>
         </section>
