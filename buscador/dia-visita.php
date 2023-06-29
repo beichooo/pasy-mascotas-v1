@@ -61,18 +61,6 @@ $row2 = $query->fetch(PDO::FETCH_ASSOC);
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-59WDXHM" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
 
-    <!-- <header>
-        <nav class="nav-bar">
-            <span class="nav-bar__logo">PASY</span>
-            <div class="nav-bar__btns">
-                <button class="nav-bar__donate-btn">
-                    Donar
-                    <img src="../img\green-heart__nav-bar-icon.svg" alt="green heart" />
-                </button>
-                <img class="nav-bar__menu-icon" src="../img\burguer-menu__nav-bar-icon.svg" alt="burguer menu icon" />
-            </div>
-        </nav>
-    </header> -->
 
     <main>
         <section class="visit-info-container">
@@ -116,15 +104,6 @@ $row2 = $query->fetch(PDO::FETCH_ASSOC);
         </section>
 
         <section class="go-visit">
-            <!-- <p>Quiero visitarlo el día</p>
-            <div class="go-visit__date">
-                <img src="../img/walking-visit__visit-date.svg" alt="person icon">
-                <p>13 - 14 de septiembre</p>
-            </div>
-            <div class="go-visit__btns">
-                <button>esta semana</button>
-                <button>la siguiente</button>
-            </div> -->
             <form action="visita-gracias.php" method="POST" class="cta-form-container">
                 <!--input -->
                 <div class="results__cta">

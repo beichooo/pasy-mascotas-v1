@@ -8,6 +8,14 @@ const whatsAppBtn = document.querySelector("#whatsAppBtn");
 //   window.location.href = "../pet-searcher/visit-advices.html";
 // });
 
-googleMapsBtn.addEventListener("click", () => alert("maps button"));
+googleMapsBtn.addEventListener("click", () =>
+  alert(
+    "Tendrás un link con la dirección del albergue en Google Maps, así puedes llegar siguiendo indicaciones."
+  )
+);
 
-whatsAppBtn.addEventListener("click", () => alert("whats button"));
+whatsAppBtn.addEventListener("click", () =>
+  alert(
+    "Tendrás un grupo de WhatsApp para coordinar los detalles de tu visita, cosas como la hora o transporte"
+  )
+);

@@ -1659,6 +1659,7 @@ div:has(.donate-cta) {
   margin-bottom: 32px;
 }
 .why-donate__video {
+  width: 100%;
   max-width: 500px;
 }
 
